@@ -1,7 +1,7 @@
 # 💻 Jai G. — Software Developer Portfolio
 
 A sleek, **futuristic portfolio website** built entirely with **HTML and CSS**.  
-This project showcases your developer profile, projects, and creative identity through a modern, layered glass and aurora design.
+This project showcases a portion of my developer profile, projects, and creative identity through a modern, layered glass and aurora design.
 
 ---
 
