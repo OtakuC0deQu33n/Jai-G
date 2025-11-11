@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>My Portfolio - Jai Gaither</title>
+        <meta name="description" content="Personal portfolio of Jai Gaither: projects, skills, and contact." />
+        <link rel="stylesheet" href="styles.css" class="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <a class="skip-link" href="#main">Skip to content</a>
+
+
+        <header class="site-header" data-elevate>
+            <div class="container header-inner">
+                <a href="#" class="brand" aria-label="Home">
+                    <span class="brand-mark" aria-hidden="true"><img src="assets/My_Logo_Symbol.png" alt="Logo" /></span>
+                    <span class="brand-next">Jai Gaither</span>
+                </a>
+
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav id="primary-nav" class="nav" aria-label="Primary">
+                    <ul>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact" class="btn btn--sm">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- Hero -->
+            <section class="hero container">
+                <div class="hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Available for freelance</p>
+                        <h1>Design-driven <span class="grad">Developer</span> crafting clean, modern experiences.</h1>
+                        <p class="lede">I build fast, accessible websites and apps with a focus on elegant UI and robust UX.</p>
+                        <div class="cta">
+                            <a class="btn" href="#work">See My Work</a>
+                            <a class="btn--ghost" href="contact">Let's Talk</a>
+                        </div>
+                        <ul class="meta-list">
+                            <li><span class="dot"></span> Based in Indianapolis</li>
+                            <li><span class="dot"></span> Years of experience</li>
+                            <li><span class="dot"></span> Remote-friendly</li>
+                        </ul>
+                    </div>
+                    <figure class="hero-media">
+                        <img src="assets/My_Logo.png" alt="My Logo"/>
+                        <p>Driven by Curiosity. Defined by Creation. Turning Vision Into Code - and Code Into Reality. Engineering the Future, One Line at a Time.</p>
+                    </figure>
+                </div>
+            </section>
+
+
+            <!-- Work -->
+            <section id="work" class="section container">
+                <div class="section-head">
+                    <h2>Take a Peek</h2>
+                    <p>Here are a few projects I've worked on recently. Want to see more? <a href="#contact">Get in touch.</a></p>
+                </div>
+
+                <div class="grid projects">
+                    <!-- Project Card -->
+                    <article class="card project">
+                        <a class="card-media" href="#">
+                            <img src="assets/Saas.png" alt="Project preview"/>
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#">SaaS Dashboard</a></h3>
+                            <p class="card-text">Analytics platform with real-time charts and role-based access.</p>
+                            <ul class="tags">
+                                <li>React</li><li>Node</li><li>Tailwind</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <a class="card-media" href="#">
+                            <img src="assets/e-Commerce.png" alt="Project preview" />
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#">E-commerce Redesign</a></h3>
+                            <p class="card-text">Conversion-focused storefront with custom checkout and CMS.</p>
+                            <ul class="tags">
+                                <li>Next.js</li><li>Stripe</li><li>Headless CMS</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <a class="card-media" href="#">
+                            <img src="assets/CMS.png" alt="Project preview"/>
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#">Portfolio System</a></h3>
+                            <p class="card-text">CMS-powered portfolio with drag-and-drop case study editor.</p>
+
+                        <ul class="tags">
+                            <li>Vue</li><li>Firebase</li><li>SCSS</li>
+                        </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section id="services" class="section container">
+                <div class="section-head">
+                    <h2>Services</h2>
+                </div>
+                <div class="grid services">
+                    <article class="card service">
+                        <div class="icon" aria-hidden="true">🧩</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Wireframes, visual systems, and prototypes aligned to user needs.</p>
+                    </article>
+                    <article class="card service">
+                        <div class="icon" aria-hidden="true">🔌</div>
+                        <h3>Integration</h3>
+                        <p>APIs, payments, headless CMS, auth, and analytics you can trust.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="section container about">
+                <div class="about-grid">
+                    <figure class="about-media">
+                        <img src="assets\School pic.png" alt="Photo of Jai G."/>
+                    </figure>
+                <div class="about-copy">
+                    <h2>About Me</h2>
+                    <p>I'm a full-stack developer with a passion for creating seamless digital experiences. I specialize in programming games, building responsive, user-friendly websites, and applications that not only look great but also perform flawlessly.</p>
+                    <p>When I'm not coding, you can find me exploring new countries, experimenting with new clothing and doll designs, or indulging in my love for anime.</p>
+                    <ul class="stats">
+                        <li><strong>20+</strong> shipped projects</li>
+                        <li><strong>10</strong> happy clients</li>
+                        <li><strong>100%</strong> remote-ready</li>
+                    </ul>
+                    <div class="cta">
+                        <a class="btn" href="#contact">Start a project</a>
+                        <a class="btn--ghost href="#">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section container">
+            <div class="section-head">
+                <h2>What clients say</h2>
+            </div>
+            <div class="grid testimonials">
+                <blockquote class="card quote">
+                    <p>"We saw a 28% lift in conversions after the redesign."</p>
+                    <cite>- Lila T., E-commerce Owner</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section container contact">
+            <div class="section-head">
+                <h2>Let's work together</h2>
+            </div>
+            <form class="form" name="contact" netlify>
+                <div class="form-grid">
+                    <label>Full name
+                        <input type="text" name="name" autocomplete="name" required />
+                    </label>
+                    <label>Email
+                        <input type="email" name="email" autocomplete="email" required />
+                    </label>
+                </div>
+                <label>Project details
+                    <textarea name="message" rows="5" placeholders="Tell me about your project..." required></textarea>
+                </label>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>© <span id="y"></span> Jaileta Gaither. All rights reserved.</p>
+                <ul class="social">
+                    <li><a href="#" aria-label="Github">GitHub</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                    <li><a href="#" aria-label="Dribble">Dribble</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script>
+            // Mobile nav toggle
+            const toggle = document.querySelector('.nav-toggle');
+            const nav = document.getElementById('primary-nav');
+            toggle.addEventListener('click', () => {
+                const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+                toggle.setAttribute('aria-expanded', !expanded);
+                nav.classList.toggle('open');
+            });
+
+            // Elevate header on scroll
+            const header = document.querySelector('[data-elevate]');
+            const yEl = document.getElementById('y');
+            yEl.textContent = new Date().getFullYear();
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('elevated', window.scrollY > 8);
+            });
+        </script>
+    </body>
+    </html>
+
